@@ -1,0 +1,65 @@
+/* ======== CONFIGURAÇÕES GERAIS ======== */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdfdfd;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* ======== CABEÇALHO E MENU ======== */
+h1, h2 {
+  color: #222;
+  font-size: 3vw; /* Responsivo */
+}
+
+p {
+  font-size: 1.5vw; /* Responsivo */
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #0066cc;
+  padding: 8px;
+}
+
+a:hover {
+  color: #ff6600;
+}
+
+/* ======== TABELAS ======== */
+table {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+  font-size: 1.2vw;
+}
+
+th, td {
+  border: 1px solid #aaa;
+  padding: 10px;
+}
+
+/* ======== IMAGENS ======== */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* ======== RESPONSIVIDADE ======== */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 6vw;
+  }
+  h2 {
+    font-size: 4vw;
+  }
+  p {
+    font-size: 3vw;
+  }
+  table {
+    font-size: 3vw;
+  }
+}
