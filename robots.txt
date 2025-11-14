@@ -1,4 +1,9 @@
 User-agent: *
-Allow: /
+Disallow: /admin/
+Disallow: /tmp/
+Disallow: /*?sessionid=
+
+Allow: /imagens/
+Allow: /style.css
 
 Sitemap: https://miguelcadelca.github.io/Site/index.html
